@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26359942'))
 API_HASH = environ.get('API_HASH', '0391f66fa98d9ccb8507d9ede660eb91')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6779434332:AAGIkyqlUIJRFYzI2y6esiJX3LbjfLEMfFE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -61,7 +61,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ZiyaSearchbot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+rGx8gQKYHuBmZjY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+RMtB0J2aYlJlMzc1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Open0')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -90,9 +90,6 @@ LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
 
 
-                           # Don't Remove Credit @VJ_Botz
-                           # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-                           # Ask Doubt on telegram @KingVJ01
 
 
 # Online Stream and Download
@@ -138,6 +135,3 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
